@@ -87,6 +87,9 @@ To update dependencies, modify `requirements.txt` and run:
 ```sh
 pip install -r requirements.txt --upgrade
 ```
+## Coverage Report
+<img width="859" alt="image" src="https://github.com/user-attachments/assets/00b84725-b2c2-4c1a-985e-07227d08c0ca" />
+
 
 ## Additional Notes
 - Ensure `resources/` contains necessary models and subcategory files (e.g., `sub-category-money-movement-inbound.txt`).
