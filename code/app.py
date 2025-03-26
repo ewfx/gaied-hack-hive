@@ -44,14 +44,14 @@ class LendingServiceApp:
         return pd.DataFrame(data)
 
     def run(self):
-        st.title("Commercial Bank Lending Service")
+        st.title("DeepFin - Commercial Lending Service")
         st.write("Choose how to provide files for analysis:")
         
         option = st.radio("Select an option:", ("Upload Files", "Specify Folder Path"))
         
         try:
             if option == "Upload Files":
-                uploaded_files = st.file_uploader("Upload files to analyze", accept_multiple_files=True, type=["txt", "pdf", "eml"], help="Upload up to 200MB of files.")
+                uploaded_files = st.file_uploader("Upload files to analyze", accept_multiple_files=True, type=["pdf", "eml"], help="Upload up to 200MB of files.")
                 
                 if uploaded_files:
                     for uploaded_file in uploaded_files:
