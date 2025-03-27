@@ -90,8 +90,16 @@ pip install -r requirements.txt --upgrade
 ## Coverage Report
 <img width="859" alt="image" src="https://github.com/user-attachments/assets/00b84725-b2c2-4c1a-985e-07227d08c0ca" />
 
-
 ## Additional Notes
 - Ensure `resources/` contains necessary models and subcategory files (e.g., `sub-category-money-movement-inbound.txt`).
 - Temporary files are stored in `temp/` and may be cleaned periodically.
 - For further assistance, refer to internal documentation or contact the developer.
+
+## Sample Execution
+1. <img width="1335" alt="image" src="https://github.com/user-attachments/assets/04b7705c-006d-49b1-8310-9d1ebdf6b57e" />
+
+2. <img width="1274" alt="image" src="https://github.com/user-attachments/assets/3572466f-a471-4687-93eb-f6d26f1547b2" />
+
+3. <img width="1194" alt="image" src="https://github.com/user-attachments/assets/e5aa301e-cd8f-4a55-8751-3345e288097e" />
+
+4. <img width="1509" alt="image" src="https://github.com/user-attachments/assets/515a605b-acaa-4430-8d44-9ca98ccd6e2b" />
